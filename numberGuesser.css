@@ -1,0 +1,116 @@
+body {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right top, red, orange, yellow, green, blue, indigo);
+    background-size: 400% 100%;
+    animation: gradient-animation 15s ease infinite alternate;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+#container {
+    margin: auto;
+    width: 600px;
+    height: fit-content;
+    align-self: center;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 50px;
+
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+h1 {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin: auto;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+#numIn {
+    display: block;
+    width: 600px;
+    height: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: red;
+
+}
+
+#arr{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin: auto;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#bt{
+    text-align: center;
+}
+
+.button {
+    /* display: block; */
+    /* text-align: center; */
+    margin: auto;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.button:hover {
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+}
+#btn{
+    display: inline;
+    margin-right: 20px;
+}
+
+#btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+#resetbtn {
+    display: inline;
+    margin-top: 10px;
+    color: black;
+}
+
+#resetbtn:hover {
+    background-color: red;
+    color: white;
+}
+
+#message {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    align-content: baseline;
+}
