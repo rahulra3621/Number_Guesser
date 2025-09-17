@@ -15,8 +15,8 @@ btn.addEventListener("click", () => {
     if (inpVal < 1 || inpVal > 100) {
         msg.textContent = "Enter number between 1 to 100";
         msg.style.color = "red";
-        bg.style.backgroundColor = "rgb(255, 183, 183)";
-        bg.style.boxShadow = "0px 0px 5px red";
+        // bg.style.backgroundColor = "rgb(255, 183, 183)";
+        // bg.style.boxShadow = "0px 0px 5px red";
         inp.value = "";
         inp.focus();
         return
@@ -34,8 +34,8 @@ btn.addEventListener("click", () => {
         msg.textContent = "Too High!!!";
         atmp++;
         msg.style.color = "red";
-        bg.style.backgroundColor = "rgb(255, 183, 183)";
-        bg.style.boxShadow = "0px 0px 5px red";
+        // bg.style.backgroundColor = "rgb(255, 183, 183)";
+        // bg.style.boxShadow = "0px 0px 5px red";
         li.style.backgroundColor="blue";
         li.style.color="white";
     }
@@ -43,8 +43,8 @@ btn.addEventListener("click", () => {
         msg.textContent = "Too Low!!!";
         atmp++;
         msg.style.color = "red";
-        bg.style.backgroundColor = "rgb(255, 183, 183)";
-        bg.style.boxShadow = "0px 0px 5px red";
+        // bg.style.backgroundColor = "rgb(255, 183, 183)";
+        // bg.style.boxShadow = "0px 0px 5px red";
         li.style.backgroundColor = "red";
         li.style.color="white";
     }
